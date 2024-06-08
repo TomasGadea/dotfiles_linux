@@ -32,4 +32,5 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'neovim/nvim-lspconfig'
   use 'christoomey/vim-tmux-navigator'
+  use 'github/copilot.vim'
 end)
