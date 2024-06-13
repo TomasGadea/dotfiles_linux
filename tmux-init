@@ -38,22 +38,3 @@ tmux send-keys -t dribia "htop" Enter
 
 tmux select-window -t dribia:1
 tmux attach -t dribia
-#tmux split-window -v -p 66 -t dribia
-#tmux send-keys -t dribia "cd /path/to/directory3" Enter
-#tmux split-window -v -t dribia
-#tmux send-keys -t dribia "cd /path/to/directory4" Enter
-#tmux split-window -v -t dribia
-#tmux send-keys -t dribia "cd /path/to/directory5" Enter
-#tmux select-pane -t dribia:0.0
-#tmux split-window -v -p 66 -t dribia
-#tmux send-keys -t dribia "cd /path/to/directory6" Enter
-#tmux split-window -v -p 66 -t dribia
-#tmux send-keys -t dribia "cd /path/to/directory7" Enter
-#tmux split-window -v -t dribia
-#tmux send-keys -t dribia "cd /path/to/directory8" Enter
-## Set pane synchronization
-#tmux set-window-option -t dribia:0 synchronize-panes on
-## Run command in all 8 panes
-#tmux send-keys -t dribia "npm run dev" Enter
-## Attach to session named "dribia"
-#tmux attach -t dribia
