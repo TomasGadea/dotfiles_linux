@@ -33,4 +33,8 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig'
   use 'christoomey/vim-tmux-navigator'
   use 'github/copilot.vim'
+  use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 end)
