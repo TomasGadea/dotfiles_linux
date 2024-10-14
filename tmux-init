@@ -32,11 +32,11 @@ tmux split-window -v -t dribia
 tmux send-keys -t dribia "cd /home/tomas/repositories/dribia/hooke-dbt" Enter
 tmux send-keys -t dribia "poetry shell" Enter
 
-tmux new-window -t dribia -n marc
-tmux send-keys -t dribia "cd /home/tomas/repositories/dribia/Marc" Enter
+tmux new-window -t dribia -n argos
+tmux send-keys -t dribia "cd /home/tomas/repositories/dribia/argos" Enter
 tmux send-keys -t dribia "nvim ." Enter
 tmux split-window -v -t dribia
-tmux send-keys -t dribia "cd /home/tomas/repositories/dribia/Marc" Enter
+tmux send-keys -t dribia "cd /home/tomas/repositories/dribia/argos" Enter
 tmux send-keys -t dribia "poetry shell" Enter
 
 tmux select-window -t dribia:1
