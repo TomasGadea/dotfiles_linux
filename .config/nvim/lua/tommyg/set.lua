@@ -17,3 +17,4 @@ vim.opt.colorcolumn = "88"
 vim.opt.guicursor = ""
 vim.opt.splitright = true
 vim.opt.cursorline = true
+vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = true , silent = true })
